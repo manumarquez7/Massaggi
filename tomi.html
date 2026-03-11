@@ -1,0 +1,2291 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="language" content="Spanish">
+    <meta name="theme-color" content="#557153">
+    <link rel="icon" type="image/svg+xml" sizes="any" href="./favicon.svg">
+    <link rel="shortcut icon" href="./favicon.svg">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="dns-prefetch" href="//images.unsplash.com">
+
+    <!-- Google Analytics 4 (activar cuando se tenga el ID real) -->
+    <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+
+    <title>Masajes terapéuticos en Río Grande | Tomás Bertossi Masoterapeuta</title>
+    <meta name="description"
+        content="Masajes terapéuticos, masajes relajantes, masaje descontracturante y drenaje linfático en Río Grande, Tierra del Fuego. Atención profesional por masoterapeuta en Zona Centro.">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta property="og:title" content="Tomás Bertossi | Masoterapeuta en Río Grande">
+    <meta property="og:site_name" content="Massaggi - Masajes terapéuticos">
+    <meta property="og:description"
+        content="Masajes terapéuticos en Río Grande. Atención personalizada, alivio muscular, masaje descontracturante y relajación profunda.">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://placehold.co/1200x630/557153/F3EFE0/png?text=Massaggi%5CnMasajes+terap%C3%A9uticos%5CnR%C3%ADo+Grande">
+    <meta property="og:image:alt" content="Masajes terapéuticos Río Grande">
+    <meta property="og:url" content="https://manumarquez7.github.io/massaggi/">
+    <meta property="og:locale" content="es_AR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Tomás Bertossi, Masoterapeuta">
+    <link rel="canonical" href="https://manumarquez7.github.io/massaggi/">
+    <script type="application/ld+json">
+  {
+   "@context": "https://schema.org",
+   "@type": "HealthAndBeautyBusiness",
+   "name": "Tomás Bertossi",
+   "jobTitle": "Masoterapeuta",
+   "areaServed": "Río Grande, Tierra del Fuego, Argentina",
+   "telephone": "+54 9 2964 616102",
+   "url": "https://manumarquez7.github.io/massaggi/",
+   "priceRange": "$13000-$27900",
+   "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Río Grande",
+     "addressRegion": "Tierra del Fuego",
+     "addressCountry": "AR"
+   },
+   "availableService": [
+     { "@type": "Service", "name": "Masaje Relajante" },
+     { "@type": "Service", "name": "Masaje Descontracturante" },
+     { "@type": "Service", "name": "Drenaje Linfático" },
+     { "@type": "Service", "name": "Maderoterapia" },
+     { "@type": "Service", "name": "Masaje Prenatal" }
+   ]
+  }
+  </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            /* Paleta Spa: Verdes suaves, arenas y beiges */
+            --mauve: #557153;
+            /* Verde principal */
+            --mauve-light: #7D8F69;
+            /* Verde claro (acentos) */
+            --mauve-soft: #E9EFE6;
+            /* Verde muy pálido (fondos de íconos) */
+            --mauve-dark: #3E513D;
+            /* Verde oscuro (textos de títulos) */
+            --sage: #A9907E;
+            /* Tono tierra/arena */
+            --sage-light: #F3EFE0;
+            /* Tono tierra claro */
+            --cream: #FAF8F5;
+            /* Fondo base claro */
+            --text: #2A2A2A;
+            /* Texto oscuro general */
+            --text-soft: #5C5C6E;
+            /* Texto secundario */
+            --white: #FFFFFF;
+            /* Blanco */
+            --radius: 1.25rem;
+            --shadow-sm: 0 12px 40px rgba(0, 0, 0, .08);
+            --shadow-md: 0 10px 40px rgba(0, 0, 0, .06);
+            --shadow-lg: 0 20px 60px rgba(85, 113, 83, .22);
+            --transition: all .35s cubic-bezier(.4, 0, .2, 1);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--cream);
+            color: var(--text);
+            overflow-x: hidden;
+        }
+
+        /* ── SCROLL PROGRESS BAR ───────────────────────── */
+        #scroll-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: var(--mauve);
+            width: 0%;
+            z-index: 9999;
+            transition: width 0.1s ease-out;
+        }
+
+        /* ── SCROLLBAR ─────────────────────────────── */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--cream);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--mauve-light);
+            border-radius: 10px;
+        }
+
+        /* ── NAV ───────────────────────────────────── */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: 0 2rem;
+            height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(250, 248, 245, .85);
+            backdrop-filter: blur(18px);
+            border-bottom: 1px solid rgba(85, 113, 83, .12);
+            transition: var(--transition);
+        }
+
+        nav.scrolled {
+            box-shadow: var(--shadow-sm);
+        }
+
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: .8rem;
+            text-decoration: none;
+        }
+
+        .nav-logo {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid rgba(85, 113, 83, .3);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            transition: var(--transition);
+        }
+
+        .nav-brand:hover .nav-logo {
+            transform: scale(1.05);
+        }
+
+        .nav-brand span {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.2rem;
+            color: var(--mauve-dark);
+            letter-spacing: -.3px;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: .875rem;
+            font-weight: 500;
+            color: var(--text-soft);
+            text-decoration: none;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            right: 100%;
+            height: 2px;
+            background: var(--mauve);
+            border-radius: 2px;
+            transition: right .3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--mauve);
+        }
+
+        .nav-links a:hover::after {
+            right: 0;
+        }
+
+        .nav-cta {
+            background: var(--mauve);
+            color: var(--white) !important;
+            padding: .5rem 1.4rem;
+            border-radius: 50px;
+            font-weight: 600 !important;
+            font-size: .875rem;
+            transition: var(--transition);
+            box-shadow: 0 4px 14px rgba(85, 113, 83, .4);
+        }
+
+        .nav-cta:hover {
+            background: var(--mauve-dark) !important;
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(85, 113, 83, .5);
+        }
+
+        .nav-cta::after {
+            display: none !important;
+        }
+
+        /* hamburger */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 4px;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--mauve-dark);
+            border-radius: 2px;
+            transition: var(--transition);
+        }
+
+        /* ── HERO ──────────────────────────────────── */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 100px 2rem 60px;
+            background: linear-gradient(180deg,
+                    rgba(85, 113, 83, 0.05) 0%,
+                    rgba(169, 144, 126, 0.08) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: .55;
+            pointer-events: none;
+        }
+
+        .hero-blob-1 {
+            width: 520px;
+            height: 520px;
+            background: radial-gradient(circle, var(--mauve-light) 0%, transparent 70%);
+            top: -120px;
+            right: -80px;
+        }
+
+        .hero-blob-2 {
+            width: 380px;
+            height: 380px;
+            background: radial-gradient(circle, var(--sage-light) 0%, transparent 70%);
+            bottom: 0;
+            left: -60px;
+        }
+
+        .hero-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: .5rem;
+            background: var(--mauve-soft);
+            color: var(--mauve-dark);
+            font-size: .78rem;
+            font-weight: 600;
+            letter-spacing: .06em;
+            text-transform: uppercase;
+            padding: .35rem 1rem;
+            border-radius: 50px;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-badge i {
+            font-size: .75rem;
+        }
+
+        .hero-title {
+            font-family: 'DM Serif Display', serif;
+            font-size: clamp(2.4rem, 5vw, 3.6rem);
+            line-height: 1.15;
+            color: var(--text);
+            margin-bottom: 1.25rem;
+        }
+
+        .hero-title em {
+            font-style: italic;
+            color: var(--mauve);
+        }
+
+        .hero-desc {
+            font-size: 1.05rem;
+            color: var(--text-soft);
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            max-width: 460px;
+        }
+
+        /* Checklist en Hero */
+        .hero-checklist {
+            list-style: none;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+        }
+
+        .hero-checklist li {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--text);
+        }
+
+        .hero-checklist i {
+            color: var(--mauve);
+            background: var(--mauve-soft);
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: .55rem;
+            background: var(--mauve);
+            color: var(--white);
+            padding: .9rem 2rem;
+            border-radius: 50px;
+            font-size: .95rem;
+            font-weight: 600;
+            text-decoration: none;
+            box-shadow: 0 6px 20px rgba(85, 113, 83, .45);
+            transition: all .25s ease;
+        }
+
+        .btn-primary:hover {
+            background: var(--mauve-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, .15);
+        }
+
+        .microcopy {
+            display: block;
+            font-size: .75rem;
+            color: var(--text-soft);
+            margin-top: .6rem;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .microcopy i {
+            color: var(--sage);
+            margin-right: .3rem;
+        }
+
+        .cta-trust {
+            display: flex;
+            align-items: center;
+            gap: .4rem;
+            font-size: .78rem;
+            color: #6b7280;
+            margin-top: .6rem;
+        }
+
+        .cta-trust i {
+            color: #25D366;
+            font-size: .8rem;
+        }
+
+        .btn-ghost {
+            display: inline-flex;
+            align-items: center;
+            gap: .55rem;
+            color: var(--mauve-dark);
+            font-size: .95rem;
+            font-weight: 600;
+            text-decoration: none;
+            padding: .9rem 1.6rem;
+            border-radius: 50px;
+            border: 1.5px solid var(--mauve-light);
+            transition: all .25s ease;
+        }
+
+        .btn-ghost:hover {
+            background: var(--mauve-soft);
+            border-color: var(--mauve);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+        }
+
+        /* photo card */
+        .hero-photo-wrap {
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        .hero-photo-card {
+            position: relative;
+            width: 360px;
+            height: 440px;
+        }
+
+        .hero-photo-bg {
+            position: absolute;
+            inset: 0;
+            border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%;
+            background: linear-gradient(135deg, var(--mauve-soft) 0%, var(--sage-light) 100%);
+            animation: morphBlob 8s ease-in-out infinite;
+        }
+
+        @keyframes morphBlob {
+
+            0%,
+            100% {
+                border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%;
+            }
+
+            25% {
+                border-radius: 45% 55% 40% 60% / 60% 40% 55% 45%;
+            }
+
+            50% {
+                border-radius: 50% 50% 60% 40% / 45% 60% 40% 55%;
+            }
+
+            75% {
+                border-radius: 55% 45% 50% 50% / 55% 45% 55% 45%;
+            }
+        }
+
+        .hero-photo-img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 340px;
+            height: 340px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+            box-shadow: 0 20px 40px rgba(85, 113, 83, .2);
+        }
+
+        .hero-photo-pill {
+            position: absolute;
+            background: var(--white);
+            border-radius: 50px;
+            padding: .65rem 1.1rem;
+            box-shadow: var(--shadow-md);
+            display: flex;
+            align-items: center;
+            gap: .55rem;
+            font-size: .78rem;
+            font-weight: 600;
+            color: var(--text);
+            white-space: nowrap;
+            animation: floatPill 4s ease-in-out infinite;
+        }
+
+        .hero-photo-pill i {
+            color: var(--mauve);
+            font-size: .9rem;
+        }
+
+        .pill-1 {
+            top: 30px;
+            right: -10px;
+            animation-delay: 0s;
+        }
+
+        .pill-2 {
+            bottom: 60px;
+            left: -20px;
+            animation-delay: 1.5s;
+        }
+
+        @keyframes floatPill {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+
+        /* ── SECTION UTILS ─────────────────────────── */
+        .section-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: .45rem;
+            font-size: .75rem;
+            font-weight: 700;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            color: var(--mauve);
+            margin-bottom: .75rem;
+        }
+
+        .section-tag::before {
+            content: '';
+            display: inline-block;
+            width: 7px;
+            height: 7px;
+            background: var(--mauve);
+            border-radius: 50%;
+        }
+
+        .section-title {
+            font-family: 'DM Serif Display', serif;
+            font-size: clamp(1.9rem, 4vw, 2.8rem);
+            color: var(--text);
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        .section-title em {
+            color: var(--mauve);
+            font-style: italic;
+        }
+
+        .section-subtitle {
+            font-size: 1rem;
+            color: var(--text-soft);
+            line-height: 1.75;
+            max-width: 560px;
+        }
+
+        /* ── AUTORIDAD ─────────────────────────── */
+        .autoridad {
+            padding: 60px 2rem;
+            background: var(--white);
+            border-bottom: 1px solid rgba(85, 113, 83, .1);
+        }
+
+        .autoridad-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .autoridad-item i {
+            font-size: 1.6rem;
+            color: var(--mauve);
+            margin-bottom: .6rem;
+            display: block;
+        }
+
+        .autoridad-item strong {
+            display: block;
+            font-size: .95rem;
+            color: var(--text);
+            margin-bottom: .25rem;
+        }
+
+        .autoridad-item span {
+            font-size: .8rem;
+            color: var(--text-soft);
+        }
+
+        @media (max-width: 800px) {
+            .autoridad-inner {
+                grid-template-columns: 1fr 1fr;
+                gap: 1.5rem;
+            }
+        }
+
+        /* ── ABOUT ─────────────────────────────────── */
+        .about {
+            padding: 120px 2rem;
+            background: var(--white);
+        }
+
+        .about-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+        }
+
+        .about-img-wrap {
+            position: relative;
+        }
+
+        .about-img-frame {
+            width: 100%;
+            aspect-ratio: 4/5;
+            border-radius: 2rem;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            background: var(--mauve-soft);
+        }
+
+        .about-img-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .about-accent {
+            position: absolute;
+            width: 160px;
+            height: 160px;
+            border: 3px solid var(--mauve-light);
+            border-radius: 1.5rem;
+            bottom: -20px;
+            right: -20px;
+            z-index: -1;
+        }
+
+        .about-card-float {
+            position: absolute;
+            top: -18px;
+            left: -22px;
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 1rem 1.25rem;
+            box-shadow: var(--shadow-md);
+        }
+
+        .about-card-float .icon-wrap {
+            width: 40px;
+            height: 40px;
+            background: var(--mauve-soft);
+            border-radius: .75rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--mauve);
+            font-size: 1rem;
+            margin-bottom: .5rem;
+        }
+
+        .about-card-float p {
+            font-size: .75rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .about-card-float span {
+            font-size: .68rem;
+            color: var(--text-soft);
+        }
+
+        .about-text p {
+            font-size: 1rem;
+            color: var(--text-soft);
+            line-height: 1.85;
+            margin-bottom: 1.2rem;
+        }
+
+        .about-perks {
+            display: flex;
+            flex-direction: column;
+            gap: .9rem;
+            margin-top: 1.8rem;
+        }
+
+        .perk {
+            display: flex;
+            align-items: flex-start;
+            gap: .85rem;
+        }
+
+        .perk-icon {
+            flex-shrink: 0;
+            width: 38px;
+            height: 38px;
+            background: var(--mauve-soft);
+            border-radius: .75rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--mauve);
+            font-size: .9rem;
+        }
+
+        .perk-text strong {
+            display: block;
+            font-size: .9rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .perk-text span {
+            font-size: .82rem;
+            color: var(--text-soft);
+        }
+
+        /* ── SERVICES ──────────────────────────────── */
+        .services {
+            padding: 120px 2rem;
+            background: linear-gradient(180deg, var(--cream) 0%, var(--mauve-soft) 100%);
+        }
+
+        .services-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .services-head {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+        }
+
+        .service-card {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            border-radius: var(--radius);
+            padding: 2.2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .08), inset 0 1px 0 rgba(255, 255, 255, .6);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: transform .4s cubic-bezier(.4, 0, .2, 1), box-shadow .4s cubic-bezier(.4, 0, .2, 1), border-color .4s;
+            position: relative;
+            overflow: hidden;
+            cursor: default;
+            transform-style: preserve-3d;
+            perspective: 1000px;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--mauve) 0%, var(--sage) 100%);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform .4s ease;
+        }
+
+        .service-card:hover {
+            transform: rotateX(3deg) rotateY(-3deg) scale(1.02);
+            box-shadow: -10px 28px 60px rgba(85, 113, 83, .12);
+            border-color: rgba(85, 113, 83, .3);
+        }
+
+        .service-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .service-icon {
+            width: 54px;
+            height: 54px;
+            background: var(--mauve-soft);
+            border-radius: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            color: var(--mauve);
+            margin-bottom: 1.4rem;
+            transition: var(--transition);
+        }
+
+        .service-card:hover .service-icon {
+            background: var(--mauve);
+            color: var(--white);
+        }
+
+        .service-card h4 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.125rem;
+            color: var(--text);
+            margin-bottom: .7rem;
+        }
+
+        .service-card p {
+            font-size: .875rem;
+            color: var(--text-soft);
+            line-height: 1.7;
+        }
+
+        .service-tag {
+            display: inline-block;
+            margin-top: 1.2rem;
+            font-size: .72rem;
+            font-weight: 700;
+            letter-spacing: .05em;
+            color: var(--mauve);
+            background: var(--mauve-soft);
+            padding: .2rem .75rem;
+            border-radius: 50px;
+        }
+
+        .service-img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 12px;
+            margin-bottom: 1.4rem;
+            margin-top: 1rem;
+            display: block;
+            transition: transform .6s ease;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, .06);
+            opacity: 0;
+            transform: translateY(10px);
+            animation: imgFade .8s ease forwards;
+        }
+
+        .service-card:hover img {
+            transform: scale(1.05);
+        }
+
+        @keyframes imgFade {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ── PRECIOS ──────────────── */
+        .recursos {
+            padding: 100px 2rem;
+            background: linear-gradient(180deg, var(--white) 0%, var(--cream) 100%);
+        }
+
+        .recursos-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .recursos-head {
+            text-align: center;
+            margin-bottom: 3.5rem;
+        }
+
+        .recursos-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.2rem;
+        }
+
+        .recurso-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(85, 113, 83, 0.3);
+            padding: 0.75rem;
+            border-radius: 60px;
+            text-decoration: none;
+            color: var(--text);
+            transition: all .3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .recurso-link:hover {
+            background: var(--white);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(85, 113, 83, 0.15);
+            border-color: var(--mauve);
+        }
+
+        .recurso-link::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 0;
+            background: var(--mauve-soft);
+            z-index: 0;
+            transition: width .4s ease;
+            border-radius: 60px;
+        }
+
+        .recurso-link:hover::before {
+            width: 100%;
+        }
+
+        .rl-content {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .rl-left {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: var(--white);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            flex-shrink: 0;
+            color: var(--mauve);
+            font-size: 1.2rem;
+        }
+
+        .rl-center {
+            flex: 1;
+            text-align: center;
+            font-weight: 600;
+            font-size: 0.95rem;
+            line-height: 1.3;
+            letter-spacing: 0.05em;
+            padding: 0 1rem;
+        }
+
+        .rl-right {
+            width: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-soft);
+            font-size: 1.1rem;
+        }
+
+        .rl-soon {
+            display: block;
+            font-size: 0.7rem;
+            color: var(--mauve-dark);
+            font-weight: 700;
+            margin-top: 0.1rem;
+            letter-spacing: 0.04em;
+        }
+
+        /* ── CTA BAND ──────────────────────────────── */
+        .cta-band {
+            padding: 80px 2rem;
+            background: var(--white);
+            text-align: center;
+        }
+
+        .cta-band-inner {
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        .cta-band h2 {
+            font-family: 'DM Serif Display', serif;
+            font-size: clamp(1.8rem, 4vw, 2.6rem);
+            color: var(--text);
+            margin-bottom: 1rem;
+            line-height: 1.25;
+        }
+
+        .cta-band h2 em {
+            color: var(--mauve);
+            font-style: italic;
+        }
+
+        .cta-band p {
+            font-size: 1rem;
+            color: var(--text-soft);
+            margin-bottom: 2.2rem;
+            line-height: 1.7;
+        }
+
+        .cta-band-actions {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .btn-wa {
+            display: inline-flex;
+            align-items: center;
+            gap: .6rem;
+            background: #25D366;
+            color: var(--white);
+            padding: .9rem 2rem;
+            border-radius: 50px;
+            font-size: .95rem;
+            font-weight: 600;
+            text-decoration: none;
+            box-shadow: 0 6px 20px rgba(37, 211, 102, .4);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-wa::after {
+            content: '';
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background: rgba(255, 255, 255, 0.15);
+            top: -50%;
+            left: -50%;
+            transform: rotate(45deg);
+            transition: all .5s ease;
+            opacity: 0;
+        }
+
+        .btn-wa:hover::after {
+            opacity: 1;
+        }
+
+        .btn-wa:hover {
+            background: #1ebe5c;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 28px rgba(37, 211, 102, .5);
+        }
+
+        .btn-wa i {
+            font-size: 1.1rem;
+        }
+
+        /* ── UTILITIES ─────────────────────────────── */
+        .hero-actions-container {
+            margin-bottom: .8rem;
+        }
+
+        .hero-actions-col {
+            display: flex;
+            flex-direction: column;
+            width: max-content;
+            align-items: flex-start;
+        }
+
+        .align-start {
+            align-self: flex-start;
+        }
+
+        .margin-top-sm {
+            margin-top: .2rem;
+        }
+
+        .mb-2rem {
+            margin-bottom: 2rem;
+        }
+
+        .mx-auto {
+            margin: 0 auto;
+        }
+
+        .color-white-75 {
+            color: rgba(255, 255, 255, .75);
+        }
+
+        .color-wa-green {
+            color: #25D366;
+        }
+
+        .white {
+            color: var(--white);
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        /* ── FOOTER ────────────────────────────────── */
+        footer {
+            background: var(--text);
+            color: rgba(255, 255, 255, .75);
+            padding: 2rem;
+            text-align: center;
+            font-size: .82rem;
+        }
+
+        footer a {
+            color: var(--mauve-light);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--white);
+        }
+
+        /* ── WA FLOAT ──────────────────────────────── */
+        .wa-float {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+            z-index: 999;
+            text-decoration: none;
+            animation: pulse-wa 2.5s ease-in-out infinite;
+            transition: var(--transition);
+        }
+
+        .wa-float:hover {
+            transform: scale(1.12);
+            box-shadow: 0 8px 30px rgba(37, 211, 102, .65);
+        }
+
+        @keyframes pulse-wa {
+
+            0%,
+            100% {
+                box-shadow: 0 6px 24px rgba(37, 211, 102, .5), 0 0 0 0 rgba(37, 211, 102, .35);
+            }
+
+            50% {
+                box-shadow: 0 6px 24px rgba(37, 211, 102, .5), 0 0 0 14px rgba(37, 211, 102, 0);
+            }
+        }
+
+        /* ── REVEAL ANIMATIONS ─────────────────────── */
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all .8s cubic-bezier(.22, .61, .36, 1);
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ── NUEVAS SECCIONES ──────────────────────── */
+        .beneficios {
+            padding: 80px 2rem;
+            background: var(--white);
+        }
+
+        .beneficios-inner {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .beneficios ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 2.5rem;
+        }
+
+        .beneficios li {
+            display: flex;
+            align-items: center;
+            gap: .8rem;
+            font-size: 1.05rem;
+            color: var(--text);
+            background: var(--mauve-soft);
+            padding: 1.2rem;
+            border-radius: var(--radius);
+        }
+
+        .beneficios li i {
+            color: var(--mauve);
+            font-size: 1.2rem;
+        }
+
+        .proceso {
+            padding: 100px 2rem;
+            background: var(--cream);
+        }
+
+        .proceso-inner {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .proceso ol {
+            list-style: none;
+            display: grid;
+            gap: 1.8rem;
+            margin-top: 3rem;
+            counter-reset: step;
+        }
+
+        .proceso li {
+            position: relative;
+            background: var(--white);
+            padding: 2rem 2rem 2rem 4rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+            font-size: 1.1rem;
+            color: var(--text);
+        }
+
+        .proceso li::before {
+            counter-increment: step;
+            content: counter(step);
+            position: absolute;
+            left: -1.2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 45px;
+            height: 45px;
+            background: var(--mauve);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 10px rgba(85, 113, 83, .3);
+        }
+
+        .proceso li strong {
+            display: block;
+            margin-bottom: .3rem;
+            color: var(--mauve-dark);
+            font-family: 'DM Sans', sans-serif;
+        }
+
+        .resultados {
+            padding: 100px 2rem;
+            background: var(--mauve-soft);
+        }
+
+        .resultados-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .resultados ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2.5rem;
+        }
+
+        .resultados li {
+            background: var(--white);
+            color: var(--mauve-dark);
+            padding: 1rem 1.8rem;
+            border-radius: 50px;
+            font-weight: 600;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            align-items: center;
+            gap: .6rem;
+        }
+
+        .testimonios {
+            padding: 100px 2rem;
+            background: var(--white);
+        }
+
+        .testimonios-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .testimonios-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .testimonio {
+            background: var(--cream);
+            padding: 2.5rem;
+            border-radius: var(--radius);
+        }
+
+        .testimonio-stars {
+            color: #FBBF24;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .testimonio p {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: var(--text-soft);
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+
+        .testimonio span {
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .galeria {
+            padding: 100px 2rem;
+            background: var(--cream);
+        }
+
+        .galeria-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .galeria-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .galeria-grid img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+            background: var(--mauve-soft);
+        }
+
+        .faq {
+            padding: 100px 2rem;
+            background: var(--white);
+        }
+
+        .faq-inner {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid rgba(85, 113, 83, .1);
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .faq h3 {
+            font-size: 1.15rem;
+            color: var(--text);
+            margin-bottom: .6rem;
+            font-weight: 600;
+        }
+
+        .faq p {
+            font-size: 1rem;
+            color: var(--text-soft);
+            line-height: 1.6;
+        }
+
+        .instagram-sec {
+            padding: 100px 2rem;
+            background: var(--mauve-dark);
+            color: var(--white);
+            text-align: center;
+        }
+
+        .instagram-sec h2 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 2.6rem;
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+
+        .instagram-sec a {
+            display: inline-flex;
+            align-items: center;
+            gap: .6rem;
+            background: var(--white);
+            color: var(--mauve-dark);
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1.05rem;
+            transition: var(--transition);
+        }
+
+        .instagram-sec a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+        }
+
+        .ubicacion {
+            padding: 80px 2rem;
+            background: var(--white);
+            text-align: center;
+            border-top: 1px solid rgba(85, 113, 83, .08);
+        }
+
+        .ubicacion h2 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 2rem;
+            color: var(--text);
+            margin-bottom: 1rem;
+        }
+
+        .ubicacion p {
+            color: var(--text-soft);
+            font-size: 1.1rem;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .wa-float-tooltip {
+            position: absolute;
+            right: 75px;
+            background: var(--white);
+            color: var(--text);
+            padding: .4rem .8rem;
+            border-radius: 8px;
+            font-size: .85rem;
+            font-weight: 600;
+            white-space: nowrap;
+            box-shadow: var(--shadow-md);
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity .3s ease, transform .3s ease;
+            transform: translateX(10px);
+        }
+
+        .wa-float:hover .wa-float-tooltip {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* ── RESPONSIVE ────────────────────────────── */
+        @media (max-width: 900px) {
+            .hero-inner {
+                grid-template-columns: 1fr;
+                text-align: left;
+            }
+
+            .hero-photo-wrap {
+                display: none;
+            }
+
+            .hero-actions {
+                justify-content: flex-start;
+            }
+
+            .hero-desc {
+                margin: 0 0 1.5rem;
+            }
+
+            .about-inner {
+                grid-template-columns: 1fr;
+            }
+
+            .about-img-wrap {
+                display: none;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-links {
+                position: absolute;
+                top: 72px;
+                right: 0;
+                left: 0;
+                background: var(--white);
+                flex-direction: column;
+                padding: 1.5rem 0;
+                gap: 1.5rem;
+                display: none;
+                box-shadow: var(--shadow-sm);
+                align-items: center;
+                z-index: 99;
+            }
+
+            .nav-links.show {
+                display: flex;
+                animation: slideDown .3s ease;
+            }
+
+            @keyframes slideDown {
+                from {
+                    opacity: 0;
+                    transform: translateY(-10px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .hero {
+                min-height: auto;
+                padding: 120px 1.5rem 60px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .cta-band-actions {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .btn-primary {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .btn-ghost {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .hero-actions-col {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ── SCROLL PROGRESS BAR ───────────────────────── -->
+    <div id="scroll-progress"></div>
+
+    <!-- ── NAV ──────────────────────────────────────── -->
+    <nav id="navbar">
+        <a class="nav-brand" href="#">
+            <img src="./logo.jpeg" alt="Logo Massaggi" class="nav-logo">
+            <span>Massaggi</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#precios">Precios</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#contacto" class="nav-cta">Reservar turno</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú de navegación">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- ── HERO ─────────────────────────────────────── -->
+    <header class="hero" id="inicio">
+        <div class="hero-blob hero-blob-1"></div>
+        <div class="hero-blob hero-blob-2"></div>
+
+        <div class="hero-inner">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <i aria-hidden="true" class="fa-solid fa-hands"></i>
+                    Masoterapeuta — Río Grande
+                </div>
+                <h1 class="hero-title">
+                    Masoterapeuta en Río Grande | Masajes terapéuticos para <em>dolor y contracturas</em>
+                </h1>
+                <p class="hero-desc">
+                    Masoterapeuta profesional en Río Grande con atención personalizada en Zona Centro. Reservá tu turno
+                    de forma rápida por WhatsApp. Sesiones pensadas para aliviar dolor y contracturas.
+                </p>
+
+                <!-- Checklist de dolores/público objetivo -->
+                <ul class="hero-checklist">
+                    <li><i class="fa-solid fa-check"></i> Dolor de espalda y cuello</li>
+                    <li><i class="fa-solid fa-check"></i> Contracturas y nudos musculares</li>
+                    <li><i class="fa-solid fa-check"></i> Estrés y cansancio crónico</li>
+                    <li><i class="fa-solid fa-check"></i> Recuperación deportiva</li>
+                    <li><i class="fa-solid fa-check"></i> Retención de líquidos</li>
+                </ul>
+
+                <div class="hero-actions hero-actions-container">
+                    <div class="hero-actions-col">
+                        <a href="https://wa.me/5492964616102?text=Hola%20Tomás,%20quiero%20reservar%20un%20turno%20para%20masajes."
+                            target="_blank" rel="noopener noreferrer" class="btn-primary" id="hero-cta-main"
+                            aria-label="Reservar turno por WhatsApp">
+                            <i aria-hidden="true" class="fa-brands fa-whatsapp"></i> Reservar turno ahora
+                        </a>
+                        <div class="cta-trust">
+                            <i class="fa-solid fa-shield-heart"></i>
+                            <span>+200 sesiones · Atención personalizada · Solo con reserva</span>
+                        </div>
+                        <span class="microcopy margin-top-sm"
+                            style="text-align: left; margin-left: 0.2rem; font-size: 0.8rem;">
+                            <i class="fa-solid fa-clock" style="color: var(--mauve);"></i> Respuesta rápida por WhatsApp
+                        </span>
+                        <span class="microcopy margin-top-sm"
+                            style="text-align: left; margin-left: 0.2rem; font-size: 0.8rem; font-weight: 700;">
+                            <i class="fa-solid fa-calendar-check" style="color: var(--mauve);"></i> Agenda semanal con
+                            pocos lugares disponibles
+                        </span>
+                        <span class="microcopy margin-top-sm"
+                            style="text-align: left; margin-left: 0.2rem; font-size: 0.8rem;">
+                            <i class="fa-regular fa-clock" style="color: var(--mauve);"></i> Lunes, Miércoles, Viernes y
+                            Sábados
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-photo-wrap">
+                <div class="hero-photo-card">
+                    <div class="hero-photo-bg"></div>
+                    <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=800&q=60"
+                        alt="Masaje descontracturante en Río Grande Tierra del Fuego" loading="eager"
+                        fetchpriority="high" decoding="async" class="hero-photo-img">
+                    <div class="hero-photo-pill pill-1">
+                        <i aria-hidden="true" class="fa-solid fa-spa"></i> Alivio y relajación
+                    </div>
+                    <div class="hero-photo-pill pill-2">
+                        <i aria-hidden="true" class="fa-solid fa-user-check"></i> Profesional certificado
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- shape divider -->
+    <div style="line-height:0; margin-bottom:-2px;">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style="display:block;width:100%;height:80px;">
+            <path d="M0,0 C360,80 1080,0 1440,60 L1440,80 L0,80 Z" fill="#ffffff" />
+        </svg>
+    </div>
+
+    <main>
+        <!-- ── AUTORIDAD ───────────────────────────────────── -->
+        <section class="autoridad reveal">
+            <div class="autoridad-inner">
+                <div class="autoridad-item">
+                    <i class="fa-solid fa-certificate"></i>
+                    <strong>Masoterapia</strong>
+                    <span>Estética Luque (2023)</span>
+                </div>
+                <div class="autoridad-item">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <strong>Maderoterapia</strong>
+                    <span>Facial y Corporal (2023)</span>
+                </div>
+                <div class="autoridad-item">
+                    <i class="fa-solid fa-bolt"></i>
+                    <strong>Electroestimulación</strong>
+                    <span>Estética Luque (2023)</span>
+                </div>
+                <div class="autoridad-item">
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <strong>Masaje Deportivo</strong>
+                    <span>Club MBT (Deportistas)</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── SERVICIOS ─────────────────────────── -->
+        <section class="services" id="servicios" style="padding-top: 120px;">
+            <div class="services-inner">
+                <div class="services-head reveal">
+                    <h2 class="section-title">Tipos de masajes <em>disponibles</em></h2>
+                    <p class="section-subtitle mx-auto">
+                        Distintas técnicas para aliviar dolor, contracturas o simplemente relajarte.
+                    </p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card reveal">
+                        <div class="service-icon"><i aria-hidden="true" class="fa-solid fa-spa"></i></div>
+                        <h4>Masaje Relajante</h4>
+                        <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=600&q=80"
+                            alt="Masaje relajante en Río Grande" class="service-img" loading="lazy" decoding="async">
+                        <p>Ideal para liberar tensiones acumuladas, reducir el estrés diario y lograr una relajación
+                            profunda en todo el cuerpo.</p>
+                        <span class="service-tag">Estrés y cansancio</span>
+                    </div>
+                    <div class="service-card reveal">
+                        <div class="service-icon"><i aria-hidden="true" class="fa-solid fa-hands"></i></div>
+                        <h4>Masaje Descontracturante</h4>
+                        <img src="https://images.unsplash.com/photo-1611558709798-e009c8fd7706?auto=format&fit=crop&w=600&q=60"
+                            alt="Masaje descontracturante profesional en Río Grande Tierra del Fuego"
+                            class="service-img" loading="lazy" decoding="async">
+                        <p>Enfocado en zonas específicas con dolor o rigidez muscular, ayudando a aliviar nudos y
+                            mejorando tu movilidad general. <b>Opción con piedras calientes.</b></p>
+                        <span class="service-tag">Dolor agudo</span>
+                    </div>
+                    <div class="service-card reveal">
+                        <div class="service-icon"><i aria-hidden="true" class="fa-solid fa-droplet"></i></div>
+                        <h4>Drenaje Linfático</h4>
+                        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=600&q=80"
+                            alt="Drenaje linfático terapéutico en Río Grande" class="service-img" loading="lazy"
+                            decoding="async">
+                        <p>Técnica manual suave que estimula la circulación, ayuda a eliminar toxinas y reduce
+                            significativamente la retención de líquidos.</p>
+                        <span class="service-tag">Circulación</span>
+                    </div>
+                    <div class="service-card reveal">
+                        <div class="service-icon"><i aria-hidden="true" class="fa-solid fa-wand-magic-sparkles"></i>
+                        </div>
+                        <h4>Maderoterapia Facial y Corporal</h4>
+                        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=80"
+                            alt="Sesión de maderoterapia facial y corporal en Río Grande" class="service-img"
+                            loading="lazy" decoding="async">
+                        <p>Masaje focalizado utilizando elementos de madera. Ayuda a tonificar, modelar la figura y
+                            mejorar el aspecto general de la piel y el rostro.</p>
+                        <span class="service-tag">Estética y firmeza</span>
+                    </div>
+                    <div class="service-card reveal">
+                        <div class="service-icon"><i aria-hidden="true" class="fa-solid fa-person-pregnant"></i></div>
+                        <h4>Masaje Prenatal</h4>
+                        <img src="https://images.unsplash.com/photo-1529693662653-9d480530a697?auto=format&fit=crop&w=600&q=80"
+                            alt="Masaje prenatal para embarazadas en Río Grande" class="service-img"
+                            style="object-position: center;" loading="lazy" decoding="async">
+                        <p>Diseñado especialmente para el embarazo, aliviando dolores de espalda, piernas pesadas y
+                            brindando bienestar a la futura mamá.</p>
+                        <span class="service-tag">Para embarazadas</span>
+                    </div>
+                </div>
+
+                <div class="hero-actions-container reveal"
+                    style="display:flex; justify-content:center; margin-top: 3.5rem;">
+                    <a href="https://wa.me/5492964616102?text=Hola%20Tomás,%20quiero%20reservar%20un%20turno%20para%20masajes."
+                        target="_blank" rel="noopener noreferrer" class="btn-primary"
+                        aria-label="Reservar turno por WhatsApp">
+                        <i aria-hidden="true" class="fa-brands fa-whatsapp"></i> Reservar turno por WhatsApp
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ── PRECIOS Y PAGOS ───────────────────────── -->
+        <section class="recursos" id="precios">
+            <div class="recursos-inner">
+                <div class="recursos-head reveal">
+                    <h2 class="section-title">Precios y <em>duración</em></h2>
+                    <p class="section-subtitle mx-auto">
+                        Elegí la sesión que mejor se adapte a tus tiempos. Duración aproximada por sesión.<br>
+                        <strong>Valores actualizados 2026.</strong>
+                    </p>
+                </div>
+
+                <div class="recursos-list">
+                    <!-- Relajante -->
+                    <a href="https://wa.me/5492964616102?text=Hola%20Tomás,%20quiero%20reservar%20un%20Masaje%20Relajante."
+                        target="_blank" rel="noopener noreferrer" class="recurso-link reveal"
+                        aria-label="Abrir chat de WhatsApp para reservar turno">
+                        <div class="rl-content">
+                            <div class="rl-left"><i class="fa-solid fa-spa"></i></div>
+                            <div class="rl-center" style="text-align: left; padding-left: 1.5rem;">
+                                Masaje Relajante
+                                <span class="rl-soon"
+                                    style="color:var(--text); font-size: 0.85rem; margin-top:0.4rem; text-transform: none;">50'
+                                    <b>$13.000</b> &nbsp;|&nbsp; 90' <b>$23.400</b></span>
+                            </div>
+                            <div class="rl-right"><i class="fa-brands fa-whatsapp"></i></div>
+                        </div>
+                    </a>
+
+                    <!-- Descontracturante -->
+                    <a href="https://wa.me/5492964616102?text=Hola%20Tomás,%20quiero%20reservar%20un%20Masaje%20Descontracturante."
+                        target="_blank" rel="noopener noreferrer" class="recurso-link reveal"
+                        aria-label="Abrir chat de WhatsApp para reservar turno">
+                        <div class="rl-content">
+                            <div class="rl-left"><i class="fa-solid fa-hands"></i></div>
+                            <div class="rl-center" style="text-align: left; padding-left: 1.5rem;">
+                                Descontracturante
+                                <span class="rl-soon"
+                                    style="color:var(--text); font-size: 0.85rem; margin-top:0.4rem; text-transform: none;">50'
+                                    <b>$14.500</b> &nbsp;|&nbsp; 90' <b>$26.100</b></span>
+                            </div>
+                            <div class="rl-right"><i class="fa-brands fa-whatsapp"></i></div>
+                        </div>
+                    </a>
+
+                    <!-- Linfático -->
+                    <a href="https://wa.me/5492964616102?text=Hola%20Tomás,%20quiero%20reservar%20un%20Drenaje%20Linfático."
+                        target="_blank" rel="noopener noreferrer" class="recurso-link reveal"
+                        aria-label="Abrir chat de WhatsApp para reservar turno">
+                        <div class="rl-content">
+                            <div class="rl-left"><i class="fa-solid fa-droplet"></i></div>
+                            <div class="rl-center" style="text-align: left; padding-left: 1.5rem;">
+                                Drenaje Linfático
+                                <span class="rl-soon"
+                                    style="color:var(--text); font-size: 0.85rem; margin-top:0.4rem; text-transform: none;">50'
+                                    <b>$13.500</b> &nbsp;|&nbsp; 90' <b>$24.300</b></span>
+                            </div>
+                            <div class="rl-right"><i class="fa-brands fa-whatsapp"></i></div>
+                        </div>
+                    </a>
+
+                    <!-- Maderoterapia -->
+                    <a href="https://wa.me/5492964616102?text=Hola%20Tomás,%20quiero%20reservar%20una%20sesión%20de%20Maderoterapia."
+                        target="_blank" rel="noopener noreferrer" class="recurso-link reveal"
+                        aria-label="Abrir chat de WhatsApp para reservar turno">
+                        <div class="rl-content">
+                            <div class="rl-left"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                            <div class="rl-center" style="text-align: left; padding-left: 1.5rem;">
+                                Reductor Maderoterapia
+                                <span class="rl-soon"
+                                    style="color:var(--text); font-size: 0.85rem; margin-top:0.4rem; text-transform: none;">50'
+                                    <b>$15.500</b> &nbsp;|&nbsp; 90' <b>$27.900</b></span>
+                            </div>
+                            <div class="rl-right"><i class="fa-brands fa-whatsapp"></i></div>
+                        </div>
+                    </a>
+
+                    <!-- Pre-natal -->
+                    <a href="https://wa.me/5492964616102?text=Hola%20Tomás,%20quiero%20reservar%20un%20Masaje%20Pre-natal."
+                        target="_blank" rel="noopener noreferrer" class="recurso-link reveal"
+                        aria-label="Abrir chat de WhatsApp para reservar turno">
+                        <div class="rl-content">
+                            <div class="rl-left"><i class="fa-solid fa-person-pregnant"></i></div>
+                            <div class="rl-center" style="text-align: left; padding-left: 1.5rem;">
+                                Masaje Pre-natal
+                                <span class="rl-soon"
+                                    style="color:var(--text); font-size: 0.85rem; margin-top:0.4rem; text-transform: none;">50'
+                                    <b>$13.500</b> &nbsp;|&nbsp; 90' <b>$24.300</b></span>
+                            </div>
+                            <div class="rl-right"><i class="fa-brands fa-whatsapp"></i></div>
+                        </div>
+                    </a>
+
+                    <!-- Packs y Promos -->
+                    <a href="https://wa.me/5492964616102?text=Hola%20Tomás,%20quiero%20consultar%20por%20los%20packs%20de%20sesiones."
+                        target="_blank" rel="noopener noreferrer" class="recurso-link reveal"
+                        aria-label="Abrir chat de WhatsApp para reservar turno">
+                        <div class="rl-content">
+                            <div class="rl-left" style="background:var(--mauve); color:white;"><i
+                                    class="fa-solid fa-tags"></i></div>
+                            <div class="rl-center" style="text-align: left; padding-left: 1.5rem;">
+                                Packs de Sesiones
+                                <span class="rl-soon"
+                                    style="color:var(--text-soft); font-weight: 500; font-size: 0.8rem; margin-top:0.3rem;">
+                                    Consultá por packs y promociones
+                                </span>
+                            </div>
+                            <div class="rl-right"><i class="fa-brands fa-whatsapp"></i></div>
+                        </div>
+                    </a>
+
+                    <!-- Medios de pago -->
+                    <a href="#precios" onclick="event.preventDefault();" class="recurso-link reveal"
+                        style="cursor:default; grid-column: 1 / -1; max-width: 500px; margin: 0 auto; width: 100%;">
+                        <div class="rl-content">
+                            <div class="rl-left">
+                                <i class="fa-solid fa-wallet"></i>
+                            </div>
+                            <div class="rl-center">
+                                Medios de pago aceptados
+                                <span class="rl-soon"
+                                    style="color:var(--text-soft); font-weight: 500; font-size: 0.8rem; margin-top:0.3rem;">
+                                    Efectivo · Transferencia · Tarjeta
+                                </span>
+                            </div>
+                            <div class="rl-right"><i class="fa-solid fa-check"></i></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── SOBRE MÍ ──────────────────────────────────── -->
+        <section class="about" id="sobre-mi">
+            <div class="about-inner">
+                <div class="about-img-wrap reveal">
+                    <div class="about-img-frame">
+                        <!-- Nota: Reemplazar por una foto real de Tomás -->
+                        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+                            alt="Tomás Bertossi masoterapeuta en Río Grande" loading="lazy" decoding="async">
+                    </div>
+                    <div class="about-accent"></div>
+                    <div class="about-card-float about-card-float-pos">
+                        <div class="icon-wrap"><i aria-hidden="true" class="fa-solid fa-hands-holding-circle"></i></div>
+                        <p>Tomás Bertossi</p>
+                        <span>Masoterapeuta</span>
+                    </div>
+                </div>
+
+                <div class="about-text reveal">
+                    <h2 class="section-title">Sobre <em>Tomás</em>
+                    </h2>
+                    <p>
+                        Soy masoterapeuta profesional enfocado en mejorar la calidad de vida de las personas a través
+                        del contacto manual terapéutico.
+                    </p>
+                    <p>
+                        Mi objetivo es brindarte un espacio seguro y de desconexión total. Adapto cada sesión a las
+                        necesidades de tu cuerpo, ya sea para aliviar un dolor puntual, tratar contracturas severas o
+                        regalarte una pausa del agotamiento diario.
+                    </p>
+                    <div class="about-perks">
+                        <div class="perk">
+                            <div class="perk-icon"><i aria-hidden="true" class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="perk-text">
+                                <strong>Profesional Certificado</strong>
+                                <span>Titulado en Masoterapia, Electroestimulación y Maderoterapia Facial/Corporal
+                                    (2023).</span>
+                            </div>
+                        </div>
+                        <div class="perk">
+                            <div class="perk-icon"><i aria-hidden="true" class="fa-solid fa-dumbbell"></i></div>
+                            <div class="perk-text">
+                                <strong>Experiencia en Deporte</strong>
+                                <span>Acompañando la recuperación física de los guerreros del Club MBT.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── BENEFICIOS ────────────────────────────── -->
+        <section class="beneficios">
+            <div class="beneficios-inner reveal">
+                <h2 class="section-title text-center" style="text-align: center;">Beneficios del <em>masaje
+                        terapéutico</em></h2>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Alivio de dolores musculares</li>
+                    <li><i class="fa-solid fa-check"></i> Reducción del estrés</li>
+                    <li><i class="fa-solid fa-check"></i> Mejora de la circulación</li>
+                    <li><i class="fa-solid fa-check"></i> Mayor movilidad</li>
+                    <li><i class="fa-solid fa-check"></i> Relajación profunda</li>
+                </ul>
+                <div style="text-align: center; margin-top: 3rem;">
+                    <a href="https://wa.me/5492964616102?text=Hola%20Tomás,%20quiero%20reservar%20un%20turno%20para%20masajes."
+                        target="_blank" rel="noopener noreferrer" class="btn-primary"
+                        aria-label="Reservar turno por WhatsApp">
+                        <i aria-hidden="true" class="fa-brands fa-whatsapp"></i> Reservar turno por WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── PROCESO ───────────────────────────────── -->
+        <section class="proceso">
+            <div class="proceso-inner reveal">
+                <h2 class="section-title text-center" style="text-align: center;">Cómo es una <em>sesión</em></h2>
+                <ol>
+                    <li><strong>Charla inicial</strong> Charlamos sobre tu molestia, dolor o qué zonas necesitan más
+                        atención.</li>
+                    <li><strong>Evaluación</strong> Evaluamos las zonas a tratar y elegimos la técnica adecuada.</li>
+                    <li><strong>Manos a la obra</strong> Realizo el masaje terapéutico, descontracturante o relajante.
+                    </li>
+                    <li><strong>Cierre</strong> Te doy recomendaciones posteriores y vemos pautas para tu día a día.
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ── RESULTADOS ────────────────────────────── -->
+        <section class="resultados">
+            <div class="resultados-inner reveal">
+                <h2 class="section-title text-center" style="text-align: center;">Resultados <em>habituales</em></h2>
+                <ul>
+                    <li><i class="fa-solid fa-bolt"></i> Reducción de contracturas</li>
+                    <li><i class="fa-solid fa-heart-pulse"></i> Alivio del dolor</li>
+                    <li><i class="fa-solid fa-moon"></i> Mejor descanso</li>
+                    <li><i class="fa-solid fa-spa"></i> Relajación profunda</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ── TESTIMONIOS ───────────────────────────── -->
+        <section class="testimonios">
+            <div class="testimonios-inner reveal">
+                <h2 class="section-title text-center" style="text-align: center;">Opiniones de <em>pacientes</em></h2>
+                <div class="testimonios-grid">
+                    <div class="testimonio">
+                        <div class="testimonio-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p>“Excelente atención y profesionalismo. Muy recomendable para descontracturar e irte
+                            relajado.”</p>
+                        <span>— Nombre</span>
+                    </div>
+                    <div class="testimonio">
+                        <div class="testimonio-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p>“El masaje descontracturante fue espectacular. Solucionó mi molestia cervical en una sola
+                            sesión.”</p>
+                        <span>— Nombre</span>
+                    </div>
+                    <div class="testimonio">
+                        <div class="testimonio-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p>“Súper profesional y el ambiente es de primera. Las sesiones realmente marcan la diferencia
+                            en el bienestar diario.”</p>
+                        <span>— Nombre</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── GALERÍA ───────────────────────────────── -->
+        <section class="galeria">
+            <div class="galeria-inner reveal">
+                <h2 class="section-title text-center" style="text-align: center;">Espacio de <em>atención</em></h2>
+                <div class="galeria-grid">
+                    <!-- Images to be replaced later -->
+                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=600&q=80"
+                        alt="Espacio de masajes terapéuticos" loading="lazy" decoding="async">
+                    <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=600&q=80"
+                        alt="Comodidad y relajación en Río Grande" loading="lazy" decoding="async">
+                    <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=600&q=80"
+                        alt="Gabinete de masajes en Río Grande" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </section>
+
+        <!-- ── FAQ ───────────────────────────────────── -->
+        <section class="faq">
+            <div class="faq-inner reveal">
+                <h2 class="section-title text-center" style="text-align: center;">Preguntas <em>frecuentes</em></h2>
+                <div class="faq-list mt-2rem" style="margin-top: 3rem;">
+                    <div class="faq-item">
+                        <h3>¿Necesito reservar turno?</h3>
+                        <p>Sí, la atención es únicamente reservando con turno previo para poder garantizar el tiempo y
+                            el espacio adecuados para tu sesión.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿Cuánto dura una sesión?</h3>
+                        <p>Las sesiones duran aproximadamente 50 o 90 minutos según el tipo de masaje que elijas o tus
+                            necesidades puntuales.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿Qué ropa debo llevar?</h3>
+                        <p>No es necesario llevar ropa especial. Durante la sesión de masajes se utilizan toallas para
+                            cubrir el cuerpo, descubriendo solo la zona a tratar.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿Los masajes duelen?</h3>
+                        <p>Depende de la técnica. El masaje descontracturante puede generar algo de presión o
+                            incomodidad rápida sobre nudos o zonas tensas, pero siempre se adapta a tu tolerancia para
+                            ayudar a relajarte.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── UBICACIÓN ─────────────────────────────── -->
+        <section class="ubicacion">
+            <div class="ubicacion-inner reveal">
+                <h2>Ubicación en <em>Río Grande</em></h2>
+                <p>
+                    Gabinete ubicado en Zona Centro de Río Grande.<br>
+                    <strong>La dirección exacta se envía al confirmar el turno.</strong>
+                </p>
+                <div style="margin-top: 2rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+                    <iframe src="https://www.google.com/maps?q=Rio+Grande+Tierra+del+Fuego&output=embed" width="100%"
+                        height="350" style="border:0;border-radius:12px;box-shadow:var(--shadow-sm);" loading="lazy"
+                        aria-label="Mapa de Río Grande">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── CTA FINAL ─────────────────────────────────── -->
+        <section class="cta-band" id="contacto">
+            <div class="cta-band-inner reveal">
+                <h2>¿Necesitás un <em>turno?</em></h2>
+                <p>
+                    Escribime por WhatsApp, contame qué zona necesitás tratar y coordinamos un horario.
+                </p>
+                <div class="cta-band-actions mb-2rem">
+                    <div class="hero-actions-col mx-auto">
+                        <a href="https://wa.me/5492964616102?text=Hola%20Tomás,%20quiero%20pautar%20un%20turno%20para%20masajes."
+                            target="_blank" rel="noopener noreferrer" class="btn-wa" id="cta-whatsapp"
+                            aria-label="Abrir chat de WhatsApp para reservar turno">
+                            <i aria-hidden="true" class="fa-brands fa-whatsapp"></i> Reservar turno por WhatsApp
+                        </a>
+                        <span class="microcopy margin-top-sm mx-auto" style="text-align: center;">
+                            Atención de Lunes, Miércoles, Viernes y Sábados.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ── INSTAGRAM ─────────────────────────────── -->
+    <section class="instagram-sec">
+        <div class="reveal">
+            <h2>Ver resultados y sesiones reales en Instagram</h2>
+            <a href="https://instagram.com/_massaggi" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i> Ir al perfil @_massaggi
+            </a>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ────────────────────────────────────── -->
+    <footer>
+        © <span id="year"></span> <strong class="color-white-75">Tomás Bertossi</strong> · Masoterapeuta ·
+        Río Grande · Tierra del Fuego · Argentina
+        <div style="margin-top: .8rem;">
+            <a href="https://www.instagram.com/_massaggi" target="_blank" rel="noopener noreferrer me"
+                style="display:inline-flex;align-items:center;gap:.4rem;color:rgba(255,255,255,.8);text-decoration:none;font-size:.88rem;font-weight:500;transition:color .2s;"
+                onmouseover="this.style.color='rgba(255,255,255,1)'"
+                onmouseout="this.style.color='rgba(255,255,255,.8)'">
+                <i class="fa-brands fa-instagram" style="font-size:1.1rem;"></i> @_massaggi
+            </a>
+        </div>
+        <div
+            style="margin-top: 1.2rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,.1); font-size: 0.78rem; color: rgba(255, 255, 255, .65);">
+            Diseño web por <a
+                href="https://wa.me/5492964510033?text=Hola%20Manuel,%20vi%20la%20web%20que%20hiciste%20y%20quiero%20una%20similar"
+                target="_blank" rel="noopener noreferrer"
+                style="color: rgba(255, 255, 255, .9); font-weight: 600;">Manuel
+                Márquez — ¿Querés una
+                web así?</a>
+        </div>
+    </footer>
+
+    <!-- ── WA FLOAT ──────────────────────────────────── -->
+    <a href="https://wa.me/5492964616102?text=Hola%20Tomás,%20quiero%20consultar%20por%20un%20turno." target="_blank"
+        rel="noopener noreferrer" class="wa-float" aria-label="Abrir chat de WhatsApp para reservar turno"
+        id="wa-float-btn">
+        <i aria-hidden="true" class="fa-brands fa-whatsapp"></i>
+        <span class="wa-float-tooltip">Reservar turno</span>
+    </a>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Set dynamic year
+            document.getElementById("year").textContent = new Date().getFullYear();
+
+            // Nav scroll effect
+            const navbar = document.getElementById('navbar');
+            window.addEventListener('scroll', () => {
+                navbar.classList.toggle('scrolled', window.scrollY > 40);
+            });
+
+            // Reveal on scroll (Staggered fade-in)
+            const reveals = document.querySelectorAll('.reveal');
+            const observer = new IntersectionObserver((entries) => {
+                let delayCounter = 0;
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.classList.add('visible');
+                        }, delayCounter * 120);
+                        delayCounter++;
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.12 });
+            reveals.forEach(el => observer.observe(el));
+
+            // Smooth nav links
+            document.querySelectorAll('a[href^="#"]:not([href="#"])').forEach(a => {
+                a.addEventListener('click', e => {
+                    const target = document.querySelector(a.getAttribute('href'));
+                    if (target) {
+                        e.preventDefault();
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+            });
+
+            // Mobile nav toggle
+            const hamburger = document.getElementById('hamburger');
+            const navLinks = document.querySelector('.nav-links');
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('show');
+            });
+
+            navLinks.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', () => navLinks.classList.remove('show'));
+            });
+
+            // Parallax Hero Image & Scroll Progress Bar
+            window.addEventListener("scroll", () => {
+                // Scroll progress
+                const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                const scrolled = (winScroll / height) * 100;
+                const scrollProgress = document.getElementById("scroll-progress");
+                if (scrollProgress) {
+                    scrollProgress.style.width = scrolled + "%";
+                }
+
+                // Parallax 
+                const heroImg = document.querySelector(".hero-photo-img");
+                if (heroImg) {
+                    heroImg.style.transform = `translate(-50%, -50%) translateY(${winScroll * 0.05}px)`;
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
